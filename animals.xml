@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <!DOCTYPE dvdlibrary SYSTEM "animals.dtd">
-<?xml-stylesheet type="text/css" href="style.css"?>
+<?xml-stylesheet type="text/css" href="css/style.css"?>
 
 <!-- Author: Kiah Gethers
 file description: This file contains an organized list and summary of different animals
