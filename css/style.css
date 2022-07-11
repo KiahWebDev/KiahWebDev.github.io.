@@ -132,7 +132,7 @@ font-size: 15px;
 }
 img{
   height: 131px;
-  width: 405px;
+  width: 100%;
   /* display: inline; */
   position: absolute;
   margin-top: 9px;
@@ -147,6 +147,11 @@ mammals{
   /* border: 1px solid red; */
   width: 100%;
   height: 400px;
+  display:flex;
+  flex-direction:row;
+  flex-wrap: wrap;
+  
+  
   /* display:inline-block; */
 }
 mammal{
@@ -156,7 +161,7 @@ height: 470px;
 width: 30%;
 clear: right;
 position: relative;
-    left: 27%;
+    left: 5%;
     font-weight: bolder;
         margin-bottom: 25px;
         background-color: #e6ebe7;
