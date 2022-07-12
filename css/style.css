@@ -304,14 +304,13 @@ display: block;
 height: 470px;
 width: 30%;
 position: relative;
-left: 27%;
+left: 5%%;
 font-weight: bolder;
 margin-bottom: 25px;
 background-color: #e6ebe7;
 box-shadow: 10px 1px 10px #505250;
 margin-right: 40px;
 }
-
 insects{
   /* border: 1px solid red; */
   width: 100%;
@@ -327,7 +326,7 @@ display: block;
 height: 488px;
 width: 30%;
 position: relative;
-left: 27%;
+left: 5%;
 font-weight: bolder;
 margin-bottom: 25px;
 background-color: #e6ebe7;
@@ -349,7 +348,7 @@ display: block;
 height: 488px;
 width: 30%;
 position: relative;
-left: 27%;
+left:5%;
 font-weight: bolder;
 margin-bottom: 25px;
 background-color: #e6ebe7;
