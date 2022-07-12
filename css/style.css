@@ -167,6 +167,7 @@ position: relative;
         background-color: #e6ebe7;
 box-shadow: 10px 1px 10px #505250;
 margin-top: 30px;
+  margin-right: 40px;
 }
 
 .koala{
@@ -294,6 +295,9 @@ reptiles{
   /* border: 1px solid red; */
   width: 100%;
   height: 400px;
+  display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
   /* display:inline-block; */
 }
 reptile{
@@ -307,12 +311,16 @@ font-weight: bolder;
     margin-bottom: 25px;
     background-color: #e6ebe7;
 box-shadow: 10px 1px 10px #505250;}
+margin-right: 40px;
 
 }
 insects{
   /* border: 1px solid red; */
   width: 100%;
   height: 400px;
+  display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
   /* display:inline-block; */
 }
 insect{
@@ -326,12 +334,16 @@ position: relative;
         margin-bottom: 25px;
         background-color: #e6ebe7;
 box-shadow: 10px 1px 10px #505250;
+  margin-right: 40px;
 }
 }
 amphibians{
   /* border: 1px solid red; */
   width: 100%;
   height: 150px;
+  display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
   /* display:inline-block; */
 }
 amphibian{
@@ -345,6 +357,7 @@ position: relative;
     margin-bottom: 25px;
     background-color: #e6ebe7;
 box-shadow: 10px 1px 10px #505250;
+margin-right: 40px;
 }
 
 .salamander{
