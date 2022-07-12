@@ -304,12 +304,13 @@ display: block;
 height: 470px;
 width: 30%;
 position: relative;
-left: 5%%;
+left: 5%;
 font-weight: bolder;
 margin-bottom: 25px;
 background-color: #e6ebe7;
 box-shadow: 10px 1px 10px #505250;
 margin-right: 40px;
+margin-top: 20px;
 }
 insects{
   /* border: 1px solid red; */
@@ -332,6 +333,7 @@ margin-bottom: 25px;
 background-color: #e6ebe7;
 box-shadow: 10px 1px 10px #505250;
 margin-right: 40px;
+margin-top: 20px;
 }
 amphibians{
   /* border: 1px solid red; */
@@ -354,6 +356,7 @@ margin-bottom: 25px;
 background-color: #e6ebe7;
 box-shadow: 10px 1px 10px #505250;
 margin-right: 40px;
+margin-top: 20px;  
 }
 
 .salamander{
