@@ -21,7 +21,7 @@ Filename: animals.xml -->
             </section>
             <section class="navright">
               <ul>
-                <li><a href="#explore">EXPLORE</a></li>
+                <li><a href="#explore/index.html">EXPLORE</a></li>
                 <!-- <li><a href="#">SPONSOR(XSLT)</a></li> -->
                 <li><a href="index.html">HOME</a></li>
                 <li><a href="mission.html">BOOK A TOUR</a></li>
