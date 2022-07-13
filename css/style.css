@@ -141,11 +141,7 @@ img{
   /* box-shadow: 10px 1px 10px #67706a; */
 }
 animals{
-<<<<<<< HEAD
-  /* background-color:  */
-=======
   background-attachment:fixed;
->>>>>>> f8cdbc8a94d96bdf31cd859d4f16e8542b28592a
   background: linear-gradient(#CD853F, #80411c, #b8734b, #cf8978);
 }
 mammals{
