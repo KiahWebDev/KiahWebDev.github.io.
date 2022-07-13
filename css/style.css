@@ -52,6 +52,7 @@ font-size: 20px;
 .navright a:hover{
  color: #47cc6b;
  text-shadow: 1px 2px #27362b;
+ border-bottom: 1px solid #47cc6b;
 }
 .bgPic{
   width:auto;
