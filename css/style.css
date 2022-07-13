@@ -63,11 +63,13 @@ font-size: 20px;
 }
 .mission{
 border: #47cc6b 1px solid;
-width:25%;
-height: 150px;
+width:50%;
+height: 250px;
 opacity: .5;
 background-color: #80411c;
 color: whitesmoke;
+display: inline-block;
+
 }
 .back{
   height: 600px;
