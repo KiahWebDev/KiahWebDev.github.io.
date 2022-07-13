@@ -141,7 +141,11 @@ img{
   /* box-shadow: 10px 1px 10px #67706a; */
 }
 animals{
+<<<<<<< HEAD
+  /* background-color:  */
+=======
   background-attachment:fixed;
+>>>>>>> f8cdbc8a94d96bdf31cd859d4f16e8542b28592a
   background: linear-gradient(#CD853F, #80411c, #b8734b, #cf8978);
 }
 mammals{
@@ -364,9 +368,9 @@ margin-bottom: 10%;
 .salamander{
       height: 221px;
 }
-html{
+/* html{ */
   /* display: inline-block; */
-}
+/* } */
 navbar{
   /* border: 1px solid red; */
   width: auto;
@@ -375,7 +379,7 @@ navbar{
   display: block;
 }
 title{
-  float: left;
+  /* float: left; */
   display: inline-block;
   padding-left: 40px;
   font-family: 'Meow Script', cursive;
