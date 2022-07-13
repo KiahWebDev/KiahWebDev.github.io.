@@ -66,6 +66,8 @@ border: #47cc6b 1px solid;
 width:25%;
 height: 150px;
 opacity: .5;
+background-color: #80411c;
+color: whitesmoke;
 }
 .back{
   height: 600px;
