@@ -75,10 +75,10 @@ box-shadow: 10px 1px 10px whitesmoke;
 .mision h3{
   text-align: center;
   text-shadow: 1px 2px #27362b;
-
+  
 }
 .mision p{
-  padding: 0% 5%;
+  padding: 0% 5% 0% 0%;
   text-shadow: 1px 2px #27362b;
 }
 .back{
