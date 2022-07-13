@@ -74,7 +74,7 @@ height: 500px;
 top: 5%;
 }
 footer{
-  border-top: 3px solid #616661;
+  /* border-top: 3px solid #616661; */
   background: linear-gradient(#26bd19, #428f3b, #65a86d, #38cf4a);
   height: 260px;
   width: auto;
