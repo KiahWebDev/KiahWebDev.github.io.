@@ -53,13 +53,19 @@ font-size: 20px;
  color: #47cc6b;
  text-shadow: 1px 2px #27362b;
 }
-.welcomeMsg{
+.bgPic{
   width:auto;
   /* background-color: #CD853F; */
   background-image:url("https://www.niabizoo.com/wp-content/uploads/2018/08/Amph_RedEyedTreeFrog.jpg");
   background-repeat: no-repeat;
   background-size: 100% 830px;
   height: 600px;
+}
+.mission{
+border: #47cc6b 1px solid;
+width:25%;
+height: 150px;
+opacity: .5;
 }
 .back{
   height: 600px;
