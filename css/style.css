@@ -67,7 +67,6 @@ width:50%;
 height: 250px;
 opacity: .5;
 background-color: #80411c;
-color: white;
 display: inline-block;
 margin: 15% 0% 0% 25%;
 box-shadow: 10px 1px 10px whitesmoke;
@@ -75,11 +74,12 @@ box-shadow: 10px 1px 10px whitesmoke;
 .mision h3{
   text-align: center;
   text-shadow: 1px 2px #27362b;
-  
+  color: white;
 }
 .mision p{
-  padding: 0% 5% 0% 0%;
+  padding: 0% 14% 0% 0%;
   text-shadow: 1px 2px #27362b;
+  color: white;
 }
 .back{
   height: 600px;
