@@ -16,7 +16,7 @@ function plusDivs(n) {
 
 function showDivs(n) {
   var i;
-  var x = document.getElementsByClassName("vidz");
+  var x = document.getElementsByClassName("vids");
   if (n > x.length) {slideIndex = 1}
   if (n < 1) {slideIndex = x.length} ;
   for (i = 0; i < x.length; i++) {
@@ -43,7 +43,7 @@ function showDivs(n) {
   <div class="shorts">
     <button class="w3-button w3-display-left" onclick="plusDivs(-1)">&#10094;</button>
     <button class="w3-button w3-display-right" onclick="plusDivs(+1)">&#10095;</button>
-    <ul class="vidz">
+    <ul>
       <li><iframe class="vids" width="560" height="315" src="https://www.youtube.com/embed/oI3ADcDH0Uc" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></li>
       <li><iframe class="vids" width="560" height="315" src="https://www.youtube.com/embed/yzz22RF9Su8" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></li>
       <li><iframe class="vids" width="560" height="315" src="https://www.youtube.com/embed/TUJkJ1c58k4" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></li>
