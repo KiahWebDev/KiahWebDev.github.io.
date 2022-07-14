@@ -6,6 +6,25 @@
     <!-- <link rel="preconnect" href="https://fonts.googleapis.com"> -->
 <!-- <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin> -->
 <!-- <link href="https://fonts.googleapis.com/css2?family=Meow+Script&display=swap" rel="stylesheet"> -->
+  <script>
+    var slideIndex = 1;
+showDivs(slideIndex);
+
+function plusDivs(n) {
+  showDivs(slideIndex += n);
+}
+
+function showDivs(n) {
+  var i;
+  var x = document.getElementsByClassName("vids");
+  if (n > x.length) {slideIndex = 1}
+  if (n < 1) {slideIndex = x.length} ;
+  for (i = 0; i < x.length; i++) {
+    x[i].style.display = "none";
+  }
+  x[slideIndex-1].style.display = "block";
+}
+  </script>
   </head>
   <body>
    <nav>
@@ -25,11 +44,13 @@
     <ul>
       <li><iframe class="vids" width="560" height="315" src="https://www.youtube.com/embed/oI3ADcDH0Uc" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></li>
       <li><iframe class="vids" width="560" height="315" src="https://www.youtube.com/embed/yzz22RF9Su8" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></li>
-      <li><iframe class="vids"width="560" height="315" src="https://www.youtube.com/embed/TUJkJ1c58k4" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></li>
+      <li><iframe class="vids" width="560" height="315" src="https://www.youtube.com/embed/TUJkJ1c58k4" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></li>
       <li><iframe class="vids" width="560" height="315" src="https://www.youtube.com/embed/ZRZsqdDBNxI" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></li>
       <li><iframe class="vids" width="560" height="315" src="https://www.youtube.com/embed/ws_D5nXOAJg" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></li>
       <li><iframe class="vids" width="560" height="315" src="https://www.youtube.com/embed/_bnur3gHJ0s" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></li>
     </ul>
+    <button class="w3-button w3-display-left" onclick="plusDivs(-1)">&#10094;</button>
+    <button class="w3-button w3-display-right" onclick="plusDivs(+1)">&#10095;</button>
     </div>
     <footer>
       <section id="explore">

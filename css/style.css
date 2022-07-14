@@ -425,6 +425,7 @@ height: 40px;
 display: inline-block;
 padding-top: 20px;
 }
+/* start of "Book A Tour Page" */
 .shorts ul{
   display: inline-block;
   margin-left: 237px;
@@ -454,3 +455,4 @@ box-shadow: 10px 1px 10px #505250;
   right: 10%;
   margin-top: 10px;
 }
+/* End of "Book A Tour Page" */
