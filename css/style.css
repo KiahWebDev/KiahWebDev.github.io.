@@ -53,6 +53,7 @@ font-size: 20px;
  color: #47cc6b;
  text-shadow: 1px 2px #27362b;
  border-bottom: 4px solid #47cc6b;
+ box-shadow: 1px 2px #27362b;
 }
 .bgPic{
   width:auto;
@@ -133,23 +134,23 @@ footer h3{
   width: 69%;
   display: inline-block;
 }
-label{
+.forms label{
   color: white;
   text-shadow: 2px 2px black;
   font-size: 20px;
 }
-input{
+.forms input{
   border-radius: 15px;
   box-shadow: 3px 2px #4b574c;
 }
-button{
+.forms button{
   display: block;
   margin-top: 10px;
   /* text-shadow: 2px 2px black; */
   border-radius: 15px;
   box-shadow: 3px 2px #4b574c;
 }
-button:hover{
+.forms button:hover{
 background-color: #428f3b;
 color: white;
 text-shadow: 2px 2px black;
@@ -434,8 +435,8 @@ padding-top: 20px;
   padding: 0px;
 }
 .vids{
-height: 200px;
-width:32%;
+height: 25em;
+width:60em;
 /* position: absolute; */
 /* top: 10%; */
 margin: 5px;
