@@ -65,21 +65,23 @@ font-size: 20px;
 .mission{ 
 /* border: #47cc6b 1px solid; */
 width:50%;
-height: 250px;
+height: 320px;
 opacity: .5;
 background-color: #80411c;
 display: inline-block;
 color: white;
-margin: 15% 0% 0% 25%;
+margin: 10% 0% 0% 25%;
 box-shadow: 10px 1px 10px whitesmoke;
+font-size: 18px;
 }
 .mission h3{
   text-align: center;
   text-shadow: 1px 2px #27362b;
+  font-size: 2em;
 
 }
 .mission p{
-  padding: 0% 14% 0% 0%;
+  padding: 0% 9% 0% 9%;
   text-shadow: 1px 2px #27362b;
   
 }
